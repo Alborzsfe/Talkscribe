@@ -17,4 +17,4 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pytest
-      - run: pytest -q
+      - run: python -m pytest -q
